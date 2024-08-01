@@ -558,7 +558,7 @@ impl<'a> Default for Font<'a> {
 #[derive(Serialize)]
 pub struct VlcSource<'a> {
     /// Loop play-list.
-    #[serde(rename = "bool")]
+    #[serde(rename = "loop")]
     pub loop_: bool,
     /// Shuffle play-list.
     pub shuffle: bool,
